@@ -71,3 +71,8 @@ versionStream:
   ref: master
   url: https://github.com/jenkins-x/jenkins-x-versions.git
 webhook: prow
+buildPacks:
+  buildPackLibrary:
+    name: "Clearbox Buildpacks"
+    gitURL: "github.com/ClearboxSystems/jenkins-x-kubernetes"
+    gitRef: "master"
